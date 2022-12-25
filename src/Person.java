@@ -11,7 +11,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return name + " " + surname + ", age=" + age;
+        return "\n" + name + " " + surname + "-age=" + age;
     }
 
     //геттеры и сеттеры:

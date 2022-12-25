@@ -14,7 +14,6 @@ public class Comparator implements java.util.Comparator<Person> {
             return -1;
         } else {
             return Integer.compare(o1.getAge(), o2.getAge());
-
         }
     }
 
